@@ -21,7 +21,6 @@ import java.io.IOException;
 @Controller
 public class TestController {
 
-
     @Resource
     private ReloadDroolsRules rules;
 
