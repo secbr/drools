@@ -1,0 +1,19 @@
+package com.rules.conditional
+import com.secbro.drools.model.Customer;
+import com.secbro.drools.model.Car;
+
+rule "conditional4:Give 10% discount to customers older than 60"
+    agenda-group "conditional4"
+when
+    $customer : Customer( age > 60 )
+    if(type == "Golden") do[giveDiscount]
+    $car : Car(owner == $customer)
+then
+    modify($car) { setFreeParking(true) };
+        System.out.println("conditional4:Give free parking to customers older than 60");
+then[giveDiscount]
+    modify($customer){
+        setDiscount(0.1)
+    };
+    System.out.println("conditional4:Give 10% discount to customers older than 60");
+end
