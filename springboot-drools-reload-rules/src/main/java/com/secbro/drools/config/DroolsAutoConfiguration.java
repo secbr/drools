@@ -70,14 +70,6 @@ public class DroolsAutoConfiguration {
     public KieBase kieBase() throws IOException {
         return kieContainer().getKieBase();
     }
-    
-    @Bean
-    @ConditionalOnMissingBean(KieSession.class)
-    public KieSession kieSession() throws IOException {
-        KieSession kieSession = kieContainer().newKieSession();
-        KieUtils.setKieSession(kieSession);
-        return kieSession;
-    }
 
     @Bean
     @ConditionalOnMissingBean(KModuleBeanFactoryPostProcessor.class)

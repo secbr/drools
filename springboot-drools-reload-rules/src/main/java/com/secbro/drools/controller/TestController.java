@@ -27,7 +27,7 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/address")
     public void test(){
-        KieSession kieSession = KieUtils.getKieSession();
+        KieSession kieSession = KieUtils.getKieContainer().newKieSession();
 
         Address address = new Address();
         address.setPostcode("994251");
@@ -42,8 +42,8 @@ public class TestController {
             System.out.println("规则校验通过");
         }
 
+        kieSession.dispose();
     }
-
 
     @ResponseBody
     @RequestMapping("/reload")
