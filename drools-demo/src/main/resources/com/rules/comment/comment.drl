@@ -1,0 +1,19 @@
+package com.rules
+
+rule "Testing Comments"
+when
+    // this is a single line comment
+    eval( true ) // this is a comment in the same line of a pattern
+then
+    // this is a comment inside a semantic code block
+end
+
+rule "Test Multi-line Comments"
+when
+    /* this is a multi-line comment
+       in the left hand side of a rule */
+    eval( true )
+then
+    /* and this is a multi-line comment
+       in the right hand side of a rule */
+end
