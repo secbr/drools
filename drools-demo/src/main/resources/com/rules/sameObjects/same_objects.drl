@@ -6,7 +6,7 @@ rule "two same objects"
     agenda-group "two same objects"
     when
         $firstCustomer:Customer(age == 59);
-        $secondCustomer:Customer(age == 61);
+        $secondCustomer:Customer(this != $firstCustomer,age == 61);
     then
         System.out.println("firstCustomer age :" + $firstCustomer.getAge());
         System.out.println("secondCustomer age :" + $secondCustomer.getAge());
