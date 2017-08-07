@@ -1,0 +1,15 @@
+package com.rules
+
+import com.secbro.drools.model.Customer;
+import java.util.List;
+
+rule "two same objects in list"
+    agenda-group "two same objects in list"
+    when
+        $list : List();
+        $firstCustomer:Customer(age == 59) from $list;
+        $secondCustomer:Customer(this != $firstCustomer,age == 61) from $list;
+    then
+        System.out.println("two same objects in list:firstCustomer age :" + $firstCustomer.getAge());
+        System.out.println("two same objects in list:secondCustomer age :" + $secondCustomer.getAge());
+    end
