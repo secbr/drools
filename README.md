@@ -8,6 +8,7 @@ Examples about drools7. Some examples are based on spring-boot.
 |--|--|--|
 |[TestConditionalNamedConsequences.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestConditionalNamedConsequences.java)|The examples of 'Conditional Named Consequences'|2017-08-04|
 |[TestSameObjects.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestSameObjects.java)|Comparing two instances of same objects in Drools (by list)|2017-08-07|
+|[TestGetNameAndPackage.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestGetNameAndPackage.java)|Get the name and package in the rules|2017-08-11|
 
 ## Contact and Exchange
 
