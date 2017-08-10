@@ -1,0 +1,12 @@
+package com.rules
+
+rule "Get name and package demo"
+
+agenda-group "Name and package"
+
+when
+then
+    System.out.println("The rule's name is '" + drools.getRule().getName() + "'");
+    System.out.println("The rule's package is  '" + drools.getRule().getPackageName() + "'");
+end
+
