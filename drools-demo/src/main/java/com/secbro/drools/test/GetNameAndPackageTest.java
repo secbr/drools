@@ -7,7 +7,7 @@ import org.kie.api.runtime.KieSession;
 /**
  * Created by zhuzs on 2017/8/11.
  */
-public class TestGetNameAndPackage extends BaseTest{
+public class GetNameAndPackageTest extends BaseTest{
 
     @Test
     public void test(){

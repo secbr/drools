@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by zhuzs on 2017/8/7.
  */
-public class TestSameObjects extends BaseTest {
+public class SameObjectsTest extends BaseTest {
 
     @Test
     public void testSameObjects() {

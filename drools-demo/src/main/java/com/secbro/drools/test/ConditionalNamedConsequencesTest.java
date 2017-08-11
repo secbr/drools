@@ -9,7 +9,7 @@ import org.kie.api.runtime.KieSession;
 /**
  * Created by zhuzs on 2017/8/4.
  */
-public class TestConditionalNamedConsequences extends BaseTest {
+public class ConditionalNamedConsequencesTest extends BaseTest {
 
     @Test
     public void testConditional1() {
