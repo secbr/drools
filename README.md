@@ -7,9 +7,9 @@ Examples about drools7. Some examples are based on spring-boot.
 
 |Class|Description|Create Date|
 |--|--|--|
-|[TestConditionalNamedConsequences.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestConditionalNamedConsequences.java)|The examples of 'Conditional Named Consequences'|2017-08-04|
-|[TestSameObjects.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestSameObjects.java)|Comparing two instances of same objects in Drools (by list)|2017-08-07|
-|[TestGetNameAndPackage.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/TestGetNameAndPackage.java)|Get the name and package in the rules|2017-08-11|
+|[ConditionalNamedConsequencesTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/ConditionalNamedConsequencesTest.java)|The examples of 'Conditional Named Consequences'|2017-08-04|
+|[SameObjectsTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/SameObjectsTest.java)|Comparing two instances of same objects in Drools (by list)|2017-08-07|
+|[GetNameAndPackageTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/GetNameAndPackageTest.java)|Get the name and package in the rules|2017-08-11|
 |[GlobalTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/GlobalTest.java)|Examples of global usage|2017-08-11|
 
 ## Contact and Exchange
