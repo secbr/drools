@@ -1,9 +1,0 @@
-package com.rules
-
-rule "Test jdk version"
-
-    when
-        eval(true)
-    then
-    System.out.println("Test Jdk Version");
-    end

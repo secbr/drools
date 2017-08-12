@@ -2,7 +2,7 @@ package com.rules
 import com.secbro.drools.model.Goods;
 
 rule "test-drools5-api"
-
+agenda-group "test-drools5-api"
 when
     $goods : Goods()
 then
