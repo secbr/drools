@@ -9,16 +9,18 @@ import org.kie.api.runtime.KieSession;
  */
 public class BaseTest {
 
-    protected KieSession getKieSession(String agendaGroup){
-        KieSession kieSession = getKieSession();
-        kieSession.getAgenda().getAgendaGroup(agendaGroup).setFocus();
+    protected KieSession getKieSession(){
+        KieServices kieServices = KieServices.get();
+        KieContainer kieContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieContainer.newKieSession("all-rules");
+
         return kieSession;
     }
 
-    protected KieSession getKieSession(){
-        KieServices kieServices = KieServices.Factory.get();
-        KieContainer kieContainer = kieServices.getKieClasspathContainer();
-        KieSession kieSession = kieContainer.newKieSession("all-rules");
+    protected KieSession getKieSession(String agendaGroupName){
+        KieSession kieSession  = getKieSession();
+        kieSession.getAgenda().getAgendaGroup(agendaGroupName).setFocus();
         return kieSession;
     }
+
 }

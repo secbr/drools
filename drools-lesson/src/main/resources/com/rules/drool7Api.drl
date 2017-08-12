@@ -1,0 +1,20 @@
+package com.rules
+import com.secbro.drools.model.Car
+
+rule "test-drools7-older-than-60"
+agenda-group "test-drools7"
+when
+    $car : Car(person.age > 60)
+then
+    $car.setDiscount(80);
+    System.out.println("test-drools7-older than 60：" + $car.getPerson().getAge());
+end
+
+rule "test-drools7-other"
+agenda-group "test-drools7"
+when
+    $car : Car(person.age <= 60)
+then
+    $car.setDiscount(90);
+    System.out.println("test-drools7-other：" + $car.getPerson().getAge());
+end
