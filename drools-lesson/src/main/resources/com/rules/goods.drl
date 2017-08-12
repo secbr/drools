@@ -1,0 +1,11 @@
+package com.rules
+import com.secbro.drools.model.Goods;
+
+rule "test-drools5-api"
+
+when
+    $goods : Goods()
+then
+    $goods.setDiscount(50);
+    System.out.println("test-drools5-api has fired！");
+end
