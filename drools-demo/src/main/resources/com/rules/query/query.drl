@@ -1,0 +1,19 @@
+package com.rules
+import com.secbro.drools.model.Person;
+
+rule "query-test"
+    agenda-group "query-test-group1"
+
+    when
+        $person : Person()
+    then
+        System.out.println("The rule query-test fired!");
+    end
+
+query "query-1"
+    $person : Person(age > 30)
+end
+
+query "query-2"(String nameParam)
+    $person : Person(age > 30,name == nameParam)
+end
