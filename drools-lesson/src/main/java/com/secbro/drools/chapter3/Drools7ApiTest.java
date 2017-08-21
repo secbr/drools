@@ -4,17 +4,15 @@ import com.secbro.drools.BaseTest;
 import com.secbro.drools.model.Car;
 import com.secbro.drools.model.Person;
 import org.junit.Test;
-import org.kie.api.KieServices;
-import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 /**
  * Created by zhuzs on 2017/8/12.
  */
-public class Drools7ApiTest extends BaseTest{
+public class Drools7ApiTest extends BaseTest {
 
     @Test
-    public void testDrools7Api(){
+    public void testDrools7Api() {
         KieSession kieSession = getKieSession("test-drools7");
 
         Person p1 = new Person();
