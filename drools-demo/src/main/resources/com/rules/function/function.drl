@@ -1,0 +1,15 @@
+package com.rules
+
+function String hello(String name){
+    return "Hello " + name + "!";
+}
+
+rule helloSomeone
+
+    agenda-group "function-group"
+
+    when
+        eval(true);
+    then
+        System.out.println(hello("Tom"));
+    end
