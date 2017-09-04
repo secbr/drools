@@ -1,0 +1,15 @@
+package com.rules
+import java.util.Map;
+import com.secbro.drools.model.Person;
+
+rule "map-usage"
+
+    agenda-group "map-group"
+
+    when
+        $obj : Object();
+        $map : Map(["p1"] != $obj);
+    then
+        System.out.println("p1's age is " + ((Person)$map.get("p1")).getAge());
+        System.out.println("p2's age is " + ((Person)$map.get("p2")).getAge());
+    end
