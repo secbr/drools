@@ -12,6 +12,8 @@ Examples about drools7. Some examples are based on spring-boot.
 |[GetNameAndPackageTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/GetNameAndPackageTest.java)|Get the name and package in the rules|2017-08-11|
 |[GlobalTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/GlobalTest.java)|Examples of global usage|2017-08-11|
 |[QueryTest](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/QueryTest.java)|Examples of query usage|2017-08-20|
+|[MapUsageTest](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/MapUsageTest.java)|Examples of Map usage|2017-09-04|
+
 
 ## Contact and Exchange
 
