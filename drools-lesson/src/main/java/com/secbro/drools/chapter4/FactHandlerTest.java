@@ -6,12 +6,10 @@ import org.junit.Test;
 import org.kie.api.runtime.KieSession;
 import org.kie.api.runtime.rule.FactHandle;
 
-import javax.swing.*;
-
-public class FactHandlerTest extends BaseTest{
+public class FactHandlerTest extends BaseTest {
 
     @Test
-    public void testFactHandler(){
+    public void testFactHandler() {
         KieSession kieSession = this.getKieSession("fact-handler-group");
 
         Person p = new Person();
@@ -26,9 +24,9 @@ public class FactHandlerTest extends BaseTest{
 
         p.setAge(90);
         kieSession.getAgenda().getAgendaGroup("fact-handler-group").setFocus();
-        kieSession.update(handle,p);
+        kieSession.update(handle, p);
 
-        count =  kieSession.fireAllRules();
+        count = kieSession.fireAllRules();
 
         System.out.println("Fires " + count + " rules!");
         kieSession.dispose();
