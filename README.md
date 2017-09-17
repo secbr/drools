@@ -13,7 +13,7 @@ Examples about drools7. Some examples are based on spring-boot.
 |[GlobalTest.java](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/GlobalTest.java)|Examples of global usage|2017-08-11|
 |[QueryTest](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/QueryTest.java)|Examples of query usage|2017-08-20|
 |[MapUsageTest](https://github.com/secbr/drools/blob/master/drools-demo/src/main/java/com/secbro/drools/test/MapUsageTest.java)|Examples of Map usage|2017-09-04|
-
+|[FactHandlerTest](https://github.com/secbr/drools/blob/master/drools-lesson/src/main/java/com/secbro/drools/chapter4/FactHandlerTest.java)|Examples of FactHandler usage|2017-09-17|
 
 ## Contact and Exchange
 
