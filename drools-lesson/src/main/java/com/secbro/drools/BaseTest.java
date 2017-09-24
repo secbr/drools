@@ -10,7 +10,7 @@ import org.kie.api.runtime.StatelessKieSession;
  */
 public class BaseTest {
 
-    protected KieSession getKieSession(){
+    protected KieSession getKieSession() {
         KieServices kieServices = KieServices.get();
         KieContainer kieContainer = kieServices.getKieClasspathContainer();
         KieSession kieSession = kieContainer.newKieSession("all-rules");
@@ -18,23 +18,17 @@ public class BaseTest {
         return kieSession;
     }
 
-    protected KieSession getKieSession(String agendaGroupName){
-        KieSession kieSession  = getKieSession();
+    protected KieSession getKieSession(String agendaGroupName) {
+        KieSession kieSession = getKieSession();
         kieSession.getAgenda().getAgendaGroup(agendaGroupName).setFocus();
         return kieSession;
     }
 
-    protected StatelessKieSession getStatelessKieSession(){
+    protected StatelessKieSession getStatelessKieSession() {
         KieServices kieServices = KieServices.get();
         KieContainer kieContainer = kieServices.getKieClasspathContainer();
         StatelessKieSession kieSession = kieContainer.newStatelessKieSession("stateless-rules");
 
         return kieSession;
     }
-
-    protected StatelessKieSession getStatelessKieSession(String agendaGroupName){
-        StatelessKieSession kieSession  = getStatelessKieSession();
-        return kieSession;
-    }
-
 }
