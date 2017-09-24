@@ -1,0 +1,9 @@
+package com.stateless
+import com.secbro.drools.model.Person
+rule "test-stateless"
+
+when
+    $p : Person()
+then
+    System.out.println($p.getAge());
+ end
