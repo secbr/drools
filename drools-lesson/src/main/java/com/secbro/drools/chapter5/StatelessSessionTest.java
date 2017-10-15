@@ -21,7 +21,6 @@ public class StatelessSessionTest extends BaseTest{
         Person p1 = new Person();
         p1.setAge(20);
         list.add(p1);
-//        kieSession.execute(p);
         kieSession.execute(list);
     }
 }
