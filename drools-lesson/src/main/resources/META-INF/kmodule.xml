@@ -9,4 +9,7 @@
     <kbase name="no-loop-rules" packages="com.no-loop">
         <ksession name="no-loop-rules"/>
     </kbase>
+    <kbase name="rule-flow-group" packages="com.ruleFlowGroup">
+        <ksession name="ruleFlowGroup-rules"/>
+    </kbase>
 </kmodule>
