@@ -18,6 +18,14 @@ public class BaseTest {
         return kieSession;
     }
 
+    protected KieSession getKieSessionBySessionName(String sessionName) {
+        KieServices kieServices = KieServices.get();
+        KieContainer kieContainer = kieServices.getKieClasspathContainer();
+        KieSession kieSession = kieContainer.newKieSession(sessionName);
+
+        return kieSession;
+    }
+
     protected KieSession getKieSession(String agendaGroupName) {
         KieSession kieSession = getKieSession();
         kieSession.getAgenda().getAgendaGroup(agendaGroupName).setFocus();

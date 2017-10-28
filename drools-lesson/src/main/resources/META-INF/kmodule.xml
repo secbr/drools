@@ -6,4 +6,7 @@
     <kbase packages="com.stateless">
         <ksession name="stateless-rules" type="stateless"/>
     </kbase>
+    <kbase name="no-loop-rules" packages="com.no-loop">
+        <ksession name="no-loop-rules"/>
+    </kbase>
 </kmodule>

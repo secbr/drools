@@ -1,0 +1,12 @@
+package com.NoLoop
+import com.secbro.drools.model.Person
+
+rule "test-no-loop-rules"
+    no-loop true
+    when
+        $p : Person(age < 10)
+    then
+        $p.setAge($p.getAge() + 1);
+        System.out.println($p.getAge());
+        update($p)
+    end
