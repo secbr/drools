@@ -20,4 +20,8 @@
     <kbase name="salience-kbase" packages="com.salienceTest">
         <ksession name="salience-rules"/>
     </kbase>
+
+    <kbase name="agendaGroup-kbase" packages="com.agendaGroup">
+        <ksession name="agendaGroup-rules"/>
+    </kbase>
 </kmodule>
