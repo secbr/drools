@@ -12,4 +12,12 @@
     <kbase name="rule-flow-group" packages="com.ruleFlowGroup">
         <ksession name="ruleFlowGroup-rules"/>
     </kbase>
+
+    <kbase name="lock-on-active-kbase" packages="com.lockOnActive">
+        <ksession name="lock-on-active-rules"/>
+    </kbase>
+
+    <kbase name="salience-kbase" packages="com.salienceTest">
+        <ksession name="salience-rules"/>
+    </kbase>
 </kmodule>

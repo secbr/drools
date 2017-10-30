@@ -1,0 +1,29 @@
+package com.salienceTest
+import com.secbro.drools.model.Person
+
+ rule  salience2
+ salience -1
+ when
+ then
+ System.out.println("salience2 被执行");
+  end
+
+
+rule  salience1
+salience 1
+when
+then
+System.out.println("salience1 被执行");
+ end
+
+ rule  salience3
+ salience sal
+ when
+    $p: Person(sal : age)
+ then
+    System.out.println("salience3 被执行");
+  end
+
+
+
+
