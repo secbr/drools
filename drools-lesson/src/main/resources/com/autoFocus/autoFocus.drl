@@ -1,0 +1,22 @@
+package com.autoFocus
+
+rule "test-auto-focus-1"
+
+agenda-group "auto-focus-1"
+auto-focus true
+
+when
+
+then
+System.out.println("auto-focus-1 被触发");
+end
+
+rule "test-auto-focus-2"
+
+agenda-group "auto-focus-2"
+
+when
+
+then
+System.out.println("auto-focus-2 被触发");
+end
