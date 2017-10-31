@@ -1,0 +1,18 @@
+package  com.dateEffective
+
+rule "test-dateEffective-rules-1"
+//date-effective "30-Dec-2017"
+ date-effective "2017-10-31 22:54"
+when
+
+then
+ System.out.println("test-dateEffective-rules-1 被触发");
+ end
+
+ rule "test-dateEffective-rules-2"
+
+ when
+
+ then
+  System.out.println("test-dateEffective-rules-2 被触发");
+  end
