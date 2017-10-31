@@ -33,4 +33,7 @@
     <kbase name="dateEffective-kbase" packages="com.dateEffective">
         <ksession name="dateEffective-rules"/>
     </kbase>
+    <kbase name="timer-kbase" packages="com.timerTest">
+        <ksession name="timerTest-rules"/>
+    </kbase>
 </kmodule>
