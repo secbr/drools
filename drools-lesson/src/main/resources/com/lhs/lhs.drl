@@ -1,0 +1,11 @@
+package com.lhs
+import com.secbro.drools.model.Person
+
+rule "test-lhs-rule"
+
+when
+    $p1 : Person(age == 10 ) and Person(age == 15 )
+then
+
+    System.out.println("规则被触发,age=" + $p1.getAge());
+ end

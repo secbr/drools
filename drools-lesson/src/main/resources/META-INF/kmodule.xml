@@ -39,4 +39,7 @@
     <kbase name="calender-kbase" packages="com.calenderTest">
         <ksession name="calenderTest-rules"/>
     </kbase>
+    <kbase name="lhs-kbase" packages="com.lhs">
+        <ksession name="lhs-rules"/>
+    </kbase>
 </kmodule>
