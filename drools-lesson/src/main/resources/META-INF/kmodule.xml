@@ -36,4 +36,7 @@
     <kbase name="timer-kbase" packages="com.timerTest">
         <ksession name="timerTest-rules"/>
     </kbase>
+    <kbase name="calender-kbase" packages="com.calenderTest">
+        <ksession name="calenderTest-rules"/>
+    </kbase>
 </kmodule>
