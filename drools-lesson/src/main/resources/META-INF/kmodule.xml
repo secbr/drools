@@ -42,4 +42,7 @@
     <kbase name="lhs-kbase" packages="com.lhs">
         <ksession name="lhs-rules"/>
     </kbase>
+    <kbase name="pattern-kbase" packages="com.pattern">
+        <ksession name="pattern-rules"/>
+    </kbase>
 </kmodule>
