@@ -1,0 +1,24 @@
+package mapAndList
+import java.util.Map
+import java.util.List
+import com.secbro.drools.model.Person
+
+rule "map-and-list-rules"
+
+when
+
+//    $map : Map()
+//    $map : Map(this["a"] == 1)
+//      $map : Map(this["a"] == 3)
+
+      $list : List()
+      $p : Person(age == 20) from $list
+then
+//    System.out.println("a=" + $map.get("a"));
+//    System.out.println("b=" + $map.get("b"));
+
+    System.out.println("person.age=" + ((Person)$list.get(0)).getAge());
+    System.out.println("person1.age=" + ((Person)$p).getAge());
+
+    System.out.println("规则map-and-list-rules 被触发");
+ end

@@ -1,0 +1,13 @@
+package com.pattern
+import com.secbro.drools.model.Person
+import com.secbro.drools.model.Car
+
+rule "test-pattern-rule"
+
+when
+//    $p : Person(bornDate > "3-Nov-2017")
+    $c : Car(subPerson#com.secbro.drools.model.Person.age == 10)
+then
+
+    System.out.println("规则被触发");
+ end

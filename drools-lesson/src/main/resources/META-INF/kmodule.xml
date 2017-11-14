@@ -20,4 +20,32 @@
     <kbase name="salience-kbase" packages="com.salienceTest">
         <ksession name="salience-rules"/>
     </kbase>
+
+    <kbase name="agendaGroup-kbase" packages="com.agendaGroup">
+        <ksession name="agendaGroup-rules"/>
+    </kbase>
+    <kbase name="autoFocus-kbase" packages="com.autoFocus">
+        <ksession name="autoFocus-rules"/>
+    </kbase>
+    <kbase name="activationGroup-kbase" packages="com.activationGroup">
+        <ksession name="activationGroup-rules"/>
+    </kbase>
+    <kbase name="dateEffective-kbase" packages="com.dateEffective">
+        <ksession name="dateEffective-rules"/>
+    </kbase>
+    <kbase name="timer-kbase" packages="com.timerTest">
+        <ksession name="timerTest-rules"/>
+    </kbase>
+    <kbase name="calender-kbase" packages="com.calenderTest">
+        <ksession name="calenderTest-rules"/>
+    </kbase>
+    <kbase name="lhs-kbase" packages="com.lhs">
+        <ksession name="lhs-rules"/>
+    </kbase>
+    <kbase name="pattern-kbase" packages="com.pattern">
+        <ksession name="pattern-rules"/>
+    </kbase>
+    <kbase name="mapAndList-kbase" packages="com.mapAndList">
+        <ksession name="mapAndList-rules"/>
+    </kbase>
 </kmodule>
