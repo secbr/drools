@@ -14,7 +14,6 @@ public class MapAndListTest extends BaseTest{
 
     @Test
     public void testMapAndList(){
-
         KieSession kieSession = this.getKieSessionBySessionName("mapAndList-rules");
 
         Map<String,Integer> map = new HashMap<>();
