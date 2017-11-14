@@ -1,0 +1,16 @@
+package com.activationGroup
+
+rule "test-activation-group-1"
+activation-group "activation-group"
+   when
+   then
+   System.out.println("test-activation-group-1 被触发");
+   end
+
+rule "test-activation-group-2"
+activation-group "activation-group"
+salience 1
+when
+then
+System.out.println("test-activation-group-2 被触发");
+end

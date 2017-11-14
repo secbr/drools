@@ -1,0 +1,12 @@
+package com.timerTest
+import com.secbro.drools.model.Server
+import java.util.Date
+
+rule "test-timer"
+timer (cron:* 0/1 * * * ? )
+when
+    $s:Server(times > 5)
+then
+    System.out.println("已经尝试" + $s.getTimes() + "次，超过预警次数！");
+    $s.setResult(new Date() + "--服务器已经尝试" + $s.getTimes() + "次,依旧失败，发出警报！");
+ end

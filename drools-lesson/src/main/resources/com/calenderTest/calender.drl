@@ -1,0 +1,17 @@
+package com.calenderTest
+
+rule "test-calender-rule"
+calendars "weekday"
+when
+
+then
+    System.out.println("test-calender-rule 被触发");
+end
+
+rule "test-calender-rule-1"
+calendars "weekday_exclude"
+when
+
+then
+    System.out.println("test-calender-rule-1 被触发");
+end

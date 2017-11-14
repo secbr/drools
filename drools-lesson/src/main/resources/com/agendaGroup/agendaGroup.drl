@@ -1,0 +1,29 @@
+package agendaGroup
+
+rule "test-agenda-group-1"
+
+agenda-group "agenda-group-test"
+
+when
+then
+ System.out.println("agenda-group-1 被触发");
+ end
+
+ rule "test-agenda-group-2"
+
+ agenda-group "agenda-group-test"
+
+ when
+ then
+  System.out.println("agenda-group-2 被触发");
+  end
+
+
+ rule "test-agenda-group-3"
+
+ agenda-group "agenda-group-3"
+
+ when
+ then
+  System.out.println("agenda-group-3 被触发");
+  end
