@@ -48,4 +48,7 @@
     <kbase name="mapAndList-kbase" packages="com.mapAndList">
         <ksession name="mapAndList-rules"/>
     </kbase>
+    <kbase name="insert-kbase" packages="com.insertDemo">
+        <ksession name="insertDemo-rules"/>
+    </kbase>
 </kmodule>
