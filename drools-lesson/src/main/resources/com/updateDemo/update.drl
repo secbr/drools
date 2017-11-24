@@ -1,0 +1,22 @@
+package com.updateDemo
+import com.secbro.drools.model.Person
+
+rule "update-demo-rule-1"
+ salience 2
+when
+    $p: Person(age == 24);
+then
+    System.out.println("update-demo-rule-1规则被触发");
+//    $p.setAge(25);
+//    update($p);
+end
+
+rule "insert-demo-rules-2"
+salience 1
+when
+    $p : Person(age == 25)
+then
+    System.out.println("update-demo-rule-2规则被触发");
+    System.out.println("person.age=" + $p.getAge());
+
+end

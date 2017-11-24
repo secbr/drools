@@ -51,4 +51,7 @@
     <kbase name="insert-kbase" packages="com.insertDemo">
         <ksession name="insertDemo-rules"/>
     </kbase>
+    <kbase name="update-kbase" packages="com.updateDemo">
+        <ksession name="updateDemo-rules"/>
+    </kbase>
 </kmodule>
