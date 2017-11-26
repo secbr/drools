@@ -1,0 +1,22 @@
+package com.modifyDemo
+import com.secbro.drools.model.Person
+
+rule "modify-demo-rule-1"
+
+when
+    $p : Person(age == 21)
+then
+   System.out.println("modify-demo-rule-1 被触发");
+   modify($p){
+      setAge(22)
+   }
+end
+
+rule "modify-demo-rule-2"
+
+when
+    $p : Person(age == 22)
+then
+
+ System.out.println("modify-demo-rule-2 被触发");
+end
