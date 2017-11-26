@@ -54,4 +54,7 @@
     <kbase name="update-kbase" packages="com.updateDemo">
         <ksession name="updateDemo-rules"/>
     </kbase>
+    <kbase name="delete-kbase" packages="com.deleteDemo">
+        <ksession name="deleteDemo-rules"/>
+    </kbase>
 </kmodule>

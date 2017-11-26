@@ -1,0 +1,22 @@
+package com.deleteDemo
+import com.secbro.drools.model.Person
+
+rule "delete-demo-rule-1"
+salience 2
+
+when
+    $p: Person(age == 21)
+then
+    System.out.println("delete-demo-rule-1 规则被触发");
+//    delete($p);
+
+ end
+
+ rule "delete-demo-rule-2"
+    salience 1
+ when
+     $p: Person(age == 21)
+ then
+     System.out.println("delete-demo-rule-2 规则被触发");
+
+  end
