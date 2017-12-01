@@ -60,4 +60,7 @@
     <kbase name="modify-kbase" packages="com.modifyDemo">
         <ksession name="modifyDemo-rules"/>
     </kbase>
+    <kbase name="conditional-kbase" packages="com.conditional">
+        <ksession name="conditional-rules"/>
+    </kbase>
 </kmodule>

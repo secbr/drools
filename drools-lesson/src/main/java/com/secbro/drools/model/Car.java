@@ -9,7 +9,7 @@ public class Car {
 
     private SubPerson subPerson;
 
-//    private Person person;
+    private Person person;
 
     public int getDiscount() {
         return discount;
@@ -27,11 +27,11 @@ public class Car {
         this.subPerson = subPerson;
     }
 
-//    public Person getPerson() {
-//        return person;
-//    }
-//
-//    public void setPerson(Person person) {
-//        this.person = person;
-//    }
+    public Person getPerson() {
+        return person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
+    }
 }
