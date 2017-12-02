@@ -66,4 +66,7 @@
     <kbase name="query-kbase" packages="com.queryDemo">
         <ksession name="query-rules"/>
     </kbase>
+    <kbase name="function-kbase" packages="com.functionDemo">
+        <ksession name="function-rules"/>
+    </kbase>
 </kmodule>

@@ -1,0 +1,20 @@
+package com.functionDemo
+import javax.sound.midi.Soundbank
+
+rule "function-test-rules"
+
+when
+
+then
+    System.out.println("The rule of function-test-rules is fired!");
+    helloFunction();
+    System.out.println(helloTom("Tom"));
+end
+
+function void helloFunction(){
+    System.out.println("helloFunction is called.");
+}
+
+function String helloTom(String name){
+    return "Hello " + name + "!";
+}
