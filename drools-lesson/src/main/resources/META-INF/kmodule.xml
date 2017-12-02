@@ -63,4 +63,7 @@
     <kbase name="conditional-kbase" packages="com.conditional">
         <ksession name="conditional-rules"/>
     </kbase>
+    <kbase name="query-kbase" packages="com.queryDemo">
+        <ksession name="query-rules"/>
+    </kbase>
 </kmodule>

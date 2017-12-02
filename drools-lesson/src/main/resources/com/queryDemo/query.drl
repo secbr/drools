@@ -1,0 +1,19 @@
+package com.queryDemo
+import com.secbro.drools.model.Person
+
+rule "query-base-rule"
+
+when
+    $p : Person(age == 20)
+then
+    System.out.println("Name is " + $p.getName());
+    System.out.println("The rule of   is  fired rules!");
+ end
+
+ query "query-by-age"
+    $p1 : Person(age == 23)
+ end
+
+ query "query-by-param"(Integer ageParam)
+    $p2 : Person(age >= ageParam)
+ end
