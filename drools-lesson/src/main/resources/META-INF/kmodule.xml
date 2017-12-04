@@ -69,4 +69,7 @@
     <kbase name="function-kbase" packages="com.functionDemo">
         <ksession name="function-rules"/>
     </kbase>
+    <kbase name="global-kbase" packages="com.globalDemo">
+        <ksession name="global-rules"/>
+    </kbase>
 </kmodule>

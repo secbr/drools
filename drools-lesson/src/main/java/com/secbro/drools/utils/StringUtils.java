@@ -1,4 +1,4 @@
-package com.secbro.drools.Utils;
+package com.secbro.drools.utils;
 
 public class StringUtils {
 

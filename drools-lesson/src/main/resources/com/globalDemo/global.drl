@@ -1,0 +1,12 @@
+package com.globalDemo
+
+global com.secbro.drools.chapter35.EmailService emailService
+
+rule "global-test-ruel"
+
+when
+
+then
+    System.out.println("The rule of global-test-rule is fired!");
+    emailService.sendEmail();
+ end
