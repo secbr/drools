@@ -75,4 +75,7 @@
     <kbase name="error-kbase" packages="com.errorDemo">
         <ksession name="error-rules"/>
     </kbase>
+    <kbase name="new-type-kbase" packages="com.newType">
+        <ksession name="new-type-rules"/>
+    </kbase>
 </kmodule>

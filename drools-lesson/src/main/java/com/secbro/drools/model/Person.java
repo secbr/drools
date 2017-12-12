@@ -1,11 +1,12 @@
 package com.secbro.drools.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by zhuzs on 2017/8/12.
  */
-public class Person {
+public class Person implements Serializable{
 
     private int age;
 

@@ -1,0 +1,19 @@
+package com.newType
+import java.util.Date;
+
+rule "new-type-rule"
+
+when
+
+then
+    Address address = new Address();
+    address.setCity("北京");
+    address.setNumber(100000);
+    insert(address);
+ end
+
+declare Address
+    number : Integer
+    city : String
+    crateTime : Date
+end
