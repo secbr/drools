@@ -72,4 +72,7 @@
     <kbase name="global-kbase" packages="com.globalDemo">
         <ksession name="global-rules"/>
     </kbase>
+    <kbase name="error-kbase" packages="com.errorDemo">
+        <ksession name="error-rules"/>
+    </kbase>
 </kmodule>
