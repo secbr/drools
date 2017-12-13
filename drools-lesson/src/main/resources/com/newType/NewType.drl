@@ -1,19 +1,39 @@
 package com.newType
 import java.util.Date;
 
-rule "new-type-rule"
+
+rule "new-type-rule-1"
 
 when
 
 then
     Address address = new Address();
+    address.setName(CountryName.CHINA.getFullName());
     address.setCity("北京");
     address.setNumber(100000);
     insert(address);
  end
 
-declare Address
+rule "new-type-rule"
+
+when
+    $address : Address(name == CountryName.CHINA.getFullName())
+then
+    System.out.println("规则被触发");
+ end
+
+declare Address extends Country
     number : Integer
     city : String
     crateTime : Date
 end
+
+declare Country
+    name : String
+end
+
+declare enum CountryName
+    CHINA("中国");
+    fullName : String
+end
+
