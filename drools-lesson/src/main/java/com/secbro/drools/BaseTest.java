@@ -19,11 +19,15 @@ public class BaseTest {
     }
 
     protected KieSession getKieSessionBySessionName(String sessionName) {
+        KieContainer kieContainer = getKieContainer();
+        KieSession kieSession = kieContainer.newKieSession(sessionName);
+        return kieSession;
+    }
+
+    protected KieContainer getKieContainer(){
         KieServices kieServices = KieServices.get();
         KieContainer kieContainer = kieServices.getKieClasspathContainer();
-        KieSession kieSession = kieContainer.newKieSession(sessionName);
-
-        return kieSession;
+        return kieContainer;
     }
 
     protected KieSession getKieSession(String agendaGroupName) {
@@ -33,8 +37,7 @@ public class BaseTest {
     }
 
     protected StatelessKieSession getStatelessKieSession() {
-        KieServices kieServices = KieServices.get();
-        KieContainer kieContainer = kieServices.getKieClasspathContainer();
+        KieContainer kieContainer = getKieContainer();
         StatelessKieSession kieSession = kieContainer.newStatelessKieSession("stateless-rules");
 
         return kieSession;

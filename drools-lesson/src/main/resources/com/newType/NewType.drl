@@ -5,7 +5,7 @@ import java.util.Date;
 rule "new-type-rule-1"
 
 when
-
+    $country: Country(name == "美国")
 then
     Address address = new Address();
     address.setName(CountryName.CHINA.getFullName());

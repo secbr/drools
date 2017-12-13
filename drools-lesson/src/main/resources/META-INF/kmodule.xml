@@ -78,4 +78,7 @@
     <kbase name="new-type-kbase" packages="com.newType">
         <ksession name="new-type-rules"/>
     </kbase>
+    <kbase name="meta-kbase" packages="com.metaDemo">
+        <ksession name="meta-rules"/>
+    </kbase>
 </kmodule>

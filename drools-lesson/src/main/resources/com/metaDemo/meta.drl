@@ -1,0 +1,21 @@
+package com.metaDemo
+
+rule "meta-test-rules"
+
+when
+
+then
+    City city = new City();
+
+    city = new City("北京");
+
+    city = new City("北京","中国");
+
+    System.out.println("规则被触发");
+ end
+
+ declare City
+    @author("zzs")
+    name : String @key
+    address: String
+ end
