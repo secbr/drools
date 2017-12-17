@@ -5,7 +5,6 @@ import org.kie.api.KieBase;
 import org.kie.api.KieServices;
 import org.kie.api.builder.*;
 import org.kie.api.runtime.KieContainer;
-import org.kie.api.runtime.KieSession;
 import org.kie.internal.io.ResourceFactory;
 import org.kie.spring.KModuleBeanFactoryPostProcessor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -45,7 +44,8 @@ public class DroolsAutoConfiguration {
     @Bean
     @ConditionalOnMissingBean(KieContainer.class)
     public KieContainer kieContainer() throws IOException {
-        final KieRepository kieRepository = getKieServices().getRepository();
+        KieServices kieServices =  getKieServices();
+        final KieRepository kieRepository = kieServices.getRepository();
         
         kieRepository.addKieModule(new KieModule() {
             @Override
@@ -54,12 +54,18 @@ public class DroolsAutoConfiguration {
             }
         });
         
-        KieBuilder kieBuilder = getKieServices().newKieBuilder(kieFileSystem());
+        KieBuilder kieBuilder = kieServices.newKieBuilder(kieFileSystem());
+        Results results = kieBuilder.getResults();
+        if (results.hasMessages(Message.Level.ERROR)) {
+            System.out.println(results.getMessages());
+            throw new IllegalStateException("### errors ###");
+        }
+
         kieBuilder.buildAll();
 
-        KieContainer kieContainer = getKieServices().newKieContainer(kieRepository.getDefaultReleaseId());
+        KieContainer kieContainer = kieServices.newKieContainer(kieRepository.getDefaultReleaseId());
         KieUtils.setKieContainer(kieContainer);
-        return getKieServices().newKieContainer(kieRepository.getDefaultReleaseId());
+        return kieContainer;
     }
     
     private KieServices getKieServices() {

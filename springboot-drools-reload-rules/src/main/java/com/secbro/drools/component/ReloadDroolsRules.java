@@ -26,7 +26,7 @@ import java.io.UnsupportedEncodingException;
 public class ReloadDroolsRules {
 
     public void reload() throws UnsupportedEncodingException {
-        KieServices kieServices =getKieServices();
+        KieServices kieServices = getKieServices();
         KieFileSystem kfs = kieServices.newKieFileSystem();
         kfs.write("src/main/resources/rules/temp.drl", loadRules());
         KieBuilder kieBuilder = kieServices.newKieBuilder(kfs).buildAll();
@@ -36,8 +36,8 @@ public class ReloadDroolsRules {
             throw new IllegalStateException("### errors ###");
         }
 
-        KieUtils.setKieContainer(kieServices.newKieContainer(getKieServices().getRepository().getDefaultReleaseId()));
-        System.out.println("新规则重载成功");
+        KieUtils.setKieContainer(kieServices.newKieContainer(kieServices.getRepository().getDefaultReleaseId()));
+        System.out.println("reload新规则重载成功");
     }
 
     private String loadRules() {
