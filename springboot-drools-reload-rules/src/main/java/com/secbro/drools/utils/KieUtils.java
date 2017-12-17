@@ -1,7 +1,6 @@
 package com.secbro.drools.utils;
 
 import org.kie.api.runtime.KieContainer;
-import org.kie.api.runtime.KieSession;
 
 /**
  * 你的支持是我努力的最大动力！社区的建立离不开你的支持。

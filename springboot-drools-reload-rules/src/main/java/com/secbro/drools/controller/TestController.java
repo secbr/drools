@@ -48,7 +48,7 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/reload")
     public String reload() throws IOException {
-        rules.reload();
+        rules.reloadByHelper();
         return "ok";
     }
 }

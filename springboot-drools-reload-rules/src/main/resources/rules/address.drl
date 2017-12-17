@@ -1,14 +1,7 @@
 package plausibcheck.adress
-
-import com.secbro.drools.model.Address;
-import com.secbro.drools.model.fact.AddressCheckResult;
-
 rule "Postcode should be filled with exactly 5 numbers"
 
     when
-//        address : Address(postcode != null, postcode matches "([0-9]{5})")
-//        checkResult : AddressCheckResult();
     then
-//        checkResult.setPostCodeResult(true);
 		System.out.println("logs in rule ：check success!");
 end
