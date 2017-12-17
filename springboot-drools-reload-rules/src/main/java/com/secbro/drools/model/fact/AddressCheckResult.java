@@ -7,7 +7,10 @@ package com.secbro.drools.model.fact;
  */
 public class AddressCheckResult {
 
-    private boolean postCodeResult = false; // true:通过校验；false：未通过校验
+    /**
+     * true:通过校验；false：未通过校验
+     */
+    private boolean postCodeResult = false;
 
     public boolean isPostCodeResult() {
         return postCodeResult;
