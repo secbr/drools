@@ -81,4 +81,7 @@
     <kbase name="meta-kbase" packages="com.metaDemo">
         <ksession name="meta-rules"/>
     </kbase>
+    <kbase name="decision-kbase" packages="com.decision">
+        <ksession name="decision-rules"/>
+    </kbase>
 </kmodule>

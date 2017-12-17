@@ -43,7 +43,6 @@
             <artifactId>drools-decisiontables</artifactId>
             <version>${drools.version}</version>
         </dependency>
-
     </dependencies>
 
     <build>
