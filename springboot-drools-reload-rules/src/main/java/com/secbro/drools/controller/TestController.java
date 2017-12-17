@@ -1,6 +1,6 @@
 package com.secbro.drools.controller;
 
-import com.secbro.drools.config.ReloadDroolsRules;
+import com.secbro.drools.component.ReloadDroolsRules;
 import com.secbro.drools.model.fact.AddressCheckResult;
 import com.secbro.drools.model.Address;
 import com.secbro.drools.utils.KieUtils;
