@@ -1,0 +1,6 @@
+##ignore this file##
+
+/target/
+.idea
+*.iml
+.gitignore
