@@ -1,0 +1,9 @@
+package com.rules
+
+rule "chapter4"
+
+when
+
+then
+
+end
