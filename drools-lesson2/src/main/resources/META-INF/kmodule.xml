@@ -2,6 +2,6 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule">
 
     <kbase packages="com.rules" name="all-kbase">
-        <ksession name="all-kieSession"/>
+        <ksession name="all-kieSession" default="true"/>
     </kbase>
 </kmodule>

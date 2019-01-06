@@ -36,6 +36,11 @@
 
         <!--CDI依赖开始-->
         <dependency>
+            <groupId>org.drools</groupId>
+            <artifactId>drools-cdi</artifactId>
+            <version>${drools.version}</version>
+        </dependency>
+        <dependency>
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
             <version>2.0</version>

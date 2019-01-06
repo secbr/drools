@@ -6,4 +6,5 @@ when
 
 then
 
+System.out.println("Fire the default rules!");
 end
