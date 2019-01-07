@@ -4,7 +4,9 @@ Examples about drools7. Some examples are based on spring-boot.
 - [springboot-drools-reload-rules](https://github.com/secbr/drools/tree/master/springboot-drools-reload-rules) : The examples of integration with springboot and how to use the api to reload rules. 
 
 - [drools-lesson](https://github.com/secbr/drools/tree/master/drools-lesson): 
-The code of Drools7 lesson（Drools 7 视频教程地址）:http://edu.csdn.net/course/detail/5523
+The code of Drools7 lesson（Drools 7 入门视频教程地址）:http://edu.csdn.net/course/detail/5523
+- [drools-lesson2](https://github.com/secbr/drools/tree/master/drools-lesson): 
+The code of Drools7 lesson2（Drools 7 进阶视频教程地址）:https://edu.csdn.net/course/detail/10555
 - [drools-demo](https://github.com/secbr/drools/tree/master/drools-demo):The examples of drools.
 
 |Class|Description|Create Date|
