@@ -3,7 +3,6 @@ package com.secbro2.drools.chapter6;
 import org.kie.api.KieServices;
 import org.kie.api.builder.Message;
 import org.kie.api.builder.Results;
-import org.kie.api.cdi.KContainer;
 import org.kie.api.runtime.KieContainer;
 
 import java.util.Collection;
