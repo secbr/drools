@@ -1,0 +1,10 @@
+package com.rules
+
+rule "chapter5"
+
+when
+
+then
+
+System.out.println("Fire the default rules---5!");
+end
