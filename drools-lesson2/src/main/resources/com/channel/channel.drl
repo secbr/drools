@@ -1,0 +1,13 @@
+package com.rules
+import com.secbro2.drools.demo.Person;
+
+rule "test-channel"
+
+when
+    $p : Person()
+then
+
+    System.out.println("Fire the global rules!");
+
+    channels["test-channel"].send($p);
+end

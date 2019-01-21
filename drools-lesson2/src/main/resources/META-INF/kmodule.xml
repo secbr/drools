@@ -7,4 +7,7 @@
     <kbase packages="com.global" name="test-global">
         <ksession name="test-global" default="true"/>
     </kbase>
+    <kbase packages="com.channel" name="test-channel">
+        <ksession name="test-channel" default="true"/>
+    </kbase>
 </kmodule>
