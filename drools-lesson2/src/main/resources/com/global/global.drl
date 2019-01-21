@@ -1,0 +1,13 @@
+package com.rules
+import com.secbro2.drools.demo.Person;
+global  com.secbro2.drools.demo.GlobalService globalService
+
+rule "test-global"
+enabled(globalService.isProcess())
+when
+    $p : Person()
+then
+
+    System.out.println("Fire the global rules!");
+    globalService.insertObject($p);
+end

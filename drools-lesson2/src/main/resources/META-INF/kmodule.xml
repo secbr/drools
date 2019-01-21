@@ -4,4 +4,7 @@
     <kbase packages="com.rules" name="all-kbase">
         <ksession name="all-kieSession" default="true"/>
     </kbase>
+    <kbase packages="com.global" name="test-global">
+        <ksession name="test-global" default="true"/>
+    </kbase>
 </kmodule>
