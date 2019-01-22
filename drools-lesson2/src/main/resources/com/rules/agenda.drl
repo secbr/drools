@@ -1,0 +1,11 @@
+package com.rules
+import com.secbro2.drools.demo.Person
+
+rule "agenda-rule"
+
+when
+    $p:Person(id > 100)
+then
+
+System.out.println("Fire the default rules---5!");
+end
