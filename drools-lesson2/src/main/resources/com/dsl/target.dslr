@@ -1,0 +1,8 @@
+rule 'test-dsl'
+
+when
+    There is a person
+    - id greater than 10
+then
+    print
+end
