@@ -1,0 +1,20 @@
+template header
+id
+username
+
+package com.template;
+
+import com.secbro2.drools.demo.Person;
+
+template "template-rules"
+
+rule "Categorize Persons_@{row.rowNumber}"
+no-loop true
+when
+       $p: Person(id == @{id})
+then
+
+       modify ($p){ setUsername("@{username}")};
+
+end
+end template

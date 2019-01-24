@@ -10,4 +10,7 @@
     <kbase packages="com.channel" name="test-channel">
         <ksession name="test-channel" default="true"/>
     </kbase>
+    <kbase packages="com.template" name="test-template">
+        <ruleTemplate dtable="com/template/template.xls" template="com/template/template.drt" row="2" col="1"/>
+    </kbase>
 </kmodule>
