@@ -13,4 +13,11 @@
     <kbase packages="com.template" name="test-template">
         <ruleTemplate dtable="com/template/template.xls" template="com/template/template.drt" row="2" col="1"/>
     </kbase>
+    <!--<kbase packages="com.cep" name="test-cep" eventProcessingMode="stream">
+
+    </kbase>-->
+
+    <kbase packages="com.cep" name="test-cep">
+
+    </kbase>
 </kmodule>

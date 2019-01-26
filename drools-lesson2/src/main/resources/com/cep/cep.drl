@@ -1,0 +1,23 @@
+package com.cep
+
+import com.secbro2.drools.demo.Person
+declare Person
+    @Role(event)
+    @expires(2s)
+end
+
+rule "test-cep"
+
+when
+
+//    $p : Person() over window : length(1)
+    $p : Person() over window : time(2s)
+
+then
+
+    System.out.println($p.getUsername());
+
+end
+
+// 滑动时间窗口 在指定的时间内发生N次事件；time(2s)
+// 滑动长度窗口 匹配最近几次的事件，length(2)
