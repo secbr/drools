@@ -1,0 +1,10 @@
+package com.rules
+
+rule "dynamic-test"
+
+when
+
+then
+
+System.out.println("Fire the default rules in the package of com!");
+end
