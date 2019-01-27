@@ -11,7 +11,7 @@ import org.kie.internal.utils.KieHelper;
  *
  * @author zzs
  */
-public class Demo11 extends BaseDemo {
+public class KieHelperDemo extends BaseDemo {
 
 	public static void main(String[] args) {
 

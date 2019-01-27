@@ -9,12 +9,20 @@ public class Person {
 
 	private String username;
 
+	private Integer age;
+
 	public Person(){
 	}
 
 	public Person(Integer id,String username){
 		this.id = id;
 		this.username = username;
+	}
+
+	public Person(Integer id,String username,Integer age){
+		this.id = id;
+		this.username = username;
+		this.age = age;
 	}
 
 	public Integer getId() {
@@ -31,5 +39,13 @@ public class Person {
 
 	public void setUsername(String username) {
 		this.username = username;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+	public void setAge(Integer age) {
+		this.age = age;
 	}
 }

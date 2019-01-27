@@ -1,0 +1,16 @@
+package com.accumu
+
+import com.secbro2.drools.demo.Person
+
+rule "test-accumulate"
+
+when
+
+    $sumAge : Number(intValue > 30) from accumulate (Person($age : age),sum($age))
+    $avAge : Number(intValue >= 18) from accumulate (Person($age : age),average($age))
+
+then
+    System.out.println($sumAge);
+    System.out.println($avAge);
+
+ end
