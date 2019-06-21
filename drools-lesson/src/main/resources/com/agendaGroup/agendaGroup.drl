@@ -1,4 +1,4 @@
-package agendaGroup
+package com.agendaGroup
 
 rule "test-agenda-group-1"
 
