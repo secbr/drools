@@ -8,6 +8,7 @@ The code of Drools7 lesson（Drools 7 入门视频教程地址）:http://edu.csd
 - [drools-lesson2](https://github.com/secbr/drools/tree/master/drools-lesson2): 
 The code of Drools7 lesson2（Drools 7 进阶视频教程地址）:https://edu.csdn.net/course/detail/10555
 - [drools-demo](https://github.com/secbr/drools/tree/master/drools-demo):The examples of drools.
+- 视频套餐链接：https://edu.csdn.net/combo/detail/1142
 
 |Class|Description|
 |--|--|
@@ -23,11 +24,13 @@ The code of Drools7 lesson2（Drools 7 进阶视频教程地址）:https://edu.c
 
 ## Contact and Exchange
 
-Join in QQ Group:593177274;
+Join in QQ Group:593177274（已满），715840230(2群);
 
 Or,send email to secbro2@gmail.com;
 
 My Blog: www.choupangxia.com
+## 相关文章
+[《drools规则引擎-判断集合是否包含集合》](http://www.choupangxia.com/2019/07/14/drools%e8%a7%84%e5%88%99%e5%bc%95%e6%93%8e-%e5%88%a4%e6%96%ad%e9%9b%86%e5%90%88%e6%98%af%e5%90%a6%e5%8c%85%e5%90%ab%e9%9b%86%e5%90%88/)
 
 ## Remark
 The examples are keep on updating.
