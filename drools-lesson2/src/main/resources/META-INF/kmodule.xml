@@ -20,4 +20,8 @@
     <kbase packages="com.cep" name="test-cep">
 
     </kbase>
+
+    <kbase packages="com.compareList" name="compareList-kbase">
+        <ksession name="compareList"/>
+    </kbase>
 </kmodule>

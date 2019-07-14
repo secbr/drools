@@ -1,0 +1,29 @@
+package com.compareList
+
+import com.secbro2.drools.entity.Company
+import java.util.List
+import java.util.ArrayList
+
+rule "compareListRule"
+
+when
+    $blackList: List();
+    $company: Company($scopList:scopes,toCompareList(scopes,$blackList));
+
+then
+
+    System.out.println("黑名单规则触发!");
+
+end
+
+function boolean toCompareList(List targetList, List blackList){
+
+    boolean flag = false;
+    for(Object obj : targetList){
+        if(blackList.contains(obj)){
+            flag  = true;
+            break;
+        }
+    }
+    return flag;
+}
