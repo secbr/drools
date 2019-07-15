@@ -1,0 +1,30 @@
+package com.memberof
+
+import com.secbro2.drools.entity.Member
+import java.util.List
+
+rule "memberofRule1"
+
+when
+
+    $s:String();
+    $c:Member(name memberOf $s);
+
+then
+
+    System.out.println("memberofRule规则触发!");
+
+end
+
+rule "memberofRule2"
+
+when
+
+    $list:List();
+    $c:Member(name memberOf $list);
+
+then
+
+    System.out.println("memberofRule2规则触发!");
+
+end

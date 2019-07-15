@@ -24,4 +24,7 @@
     <kbase packages="com.compareList" name="compareList-kbase">
         <ksession name="compareList"/>
     </kbase>
+    <kbase packages="com.memberof" name="memberof-kbase">
+        <ksession name="memberOfSession"/>
+    </kbase>
 </kmodule>
