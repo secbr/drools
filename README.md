@@ -32,6 +32,8 @@ My Blog: www.choupangxia.com
 ## 相关文章
 [《drools规则引擎-判断集合是否包含集合》](http://www.choupangxia.com/2019/07/14/drools%e8%a7%84%e5%88%99%e5%bc%95%e6%93%8e-%e5%88%a4%e6%96%ad%e9%9b%86%e5%90%88%e6%98%af%e5%90%a6%e5%8c%85%e5%90%ab%e9%9b%86%e5%90%88/)
 
+[《drools规则引擎-memberOf操作》](https://www.choupangxia.com/2019/07/15/drools%e8%a7%84%e5%88%99%e5%bc%95%e6%93%8e-memberof%e6%93%8d%e4%bd%9c/)
+
 ## Remark
 The examples are keep on updating.
 If it is useful to you, please give a Star to me. 
