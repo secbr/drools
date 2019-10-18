@@ -1,0 +1,52 @@
+package com.containsVar
+
+import com.secbro2.drools.entity.Corporation
+import com.secbro2.drools.entity.Scope
+import java.util.List
+
+rule "containsVar1"
+
+when
+
+    $c: Corporation($scopes:scopes);
+    $s: Scope(scope == "P2P") from $scopes;
+
+then
+
+    System.out.println("containsVar1行业类型为：P2P");
+end
+
+rule "containsVar2"
+
+when
+
+    $c: Corporation($scopes:scopes);
+    exists (Scope(scope == "P2P") from $scopes);
+then
+
+    System.out.println("containsVar2行业类型为：P2P");
+
+end
+
+
+rule "containsVar3"
+
+when
+    $s: Scope(scope == "区块链")
+    $c: Corporation(scopes contains $s);
+then
+
+    System.out.println("containsVar3行业类型为：区块链");
+
+end
+
+rule "containsVar4"
+
+when
+    $s: Scope(scope == "区块链")
+    exists (Corporation(scopes contains $s));
+then
+
+    System.out.println("containsVar4行业类型为：区块链");
+
+end

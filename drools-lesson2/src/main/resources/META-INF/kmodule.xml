@@ -27,4 +27,8 @@
     <kbase packages="com.memberof" name="memberof-kbase">
         <ksession name="memberOfSession"/>
     </kbase>
+
+    <kbase packages="com.containsVar" name="contains-kbase">
+        <ksession name="containsVar"/>
+    </kbase>
 </kmodule>

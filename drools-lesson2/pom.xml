@@ -71,6 +71,12 @@
             <version>3.0.0.Final</version>
         </dependency>
         <!--CDI依赖结束-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.20</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
