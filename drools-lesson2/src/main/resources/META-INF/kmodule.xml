@@ -31,4 +31,8 @@
     <kbase packages="com.containsVar" name="contains-kbase">
         <ksession name="containsVar"/>
     </kbase>
+
+    <kbase packages="com.logger" name="contains-logger">
+        <ksession name="loggerTest"/>
+    </kbase>
 </kmodule>

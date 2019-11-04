@@ -1,0 +1,15 @@
+package com.logger
+
+global org.slf4j.Logger logger
+
+rule "loggerTest"
+
+when
+
+    $s:String();
+
+then
+    System.out.println("123");
+    logger.info("print:" + $s);
+
+ end
