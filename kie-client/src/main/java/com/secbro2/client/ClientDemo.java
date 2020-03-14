@@ -25,7 +25,6 @@ public class ClientDemo {
 	public static final String USERNAME = "kieserver";
 	public static final String PASSWORD = "kieserver1!";
 	public static final long TIME_OUT = 10000L;
-	// 别名
 	public static final String KIE_CONTAINER_ID = "FirstProject";
 
 	public static void main(String[] args) {
@@ -53,14 +52,8 @@ public class ClientDemo {
 		ServiceResponse<ExecutionResults> results = ruleServicesClient.executeCommandsWithResults(KIE_CONTAINER_ID,
 				kieCommands.newBatchExecution(commands,"hello-xx-session"));
 
-		String msg = results.getMsg();
 		System.out.println(results.getType());
-
 		System.out.println(results.getResult());
-		// 返回值读取
-		String value = (String) results.getResult().getValue("name");
-		System.out.println(value);
-
 
 	}
 }
