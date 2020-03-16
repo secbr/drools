@@ -4,4 +4,7 @@
     <kbase name="decision-kbase" packages="com.decision1">
         <ksession name="decision-rules"/>
     </kbase>
+    <kbase name="decision-kbase2" packages="com.decision2">
+        <ksession name="decision-rules2"/>
+    </kbase>
 </kmodule>
