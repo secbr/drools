@@ -10,4 +10,7 @@
     <kbase name="decision-kbase3" packages="com.decision3">
         <ksession name="decision-rules3"/>
     </kbase>
+    <kbase name="decision-kbase4" packages="com.decision4">
+        <ksession name="decision-rules4"/>
+    </kbase>
 </kmodule>

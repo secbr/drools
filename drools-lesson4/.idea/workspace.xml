@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b8f5ca-edc3-4d50-88f4-4bc61442451f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/decision3/decision3.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/decision/TestDecision4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/decision4/decision4.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/decision/TestDecision5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/decision2/decision2.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/decision2/decision2.xls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,27 +29,27 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="8" />
-          <entry key="JAVA" value="876" />
+          <entry key="JAVA" value="1097" />
           <entry key="Markdown" value="91" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="XML" value="111" />
+          <entry key="XML" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="17" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="82" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="14" />
+          <entry key="XML" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/doc.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SECOND">
@@ -63,37 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="12" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -145,6 +126,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/decision/TestDecision4.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/decision/TestDecision5.java" />
       </list>
     </option>
   </component>
@@ -294,6 +277,16 @@
               <item name="drools-lesson4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="choupangxia" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drools-lesson4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="drools-lesson4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,7 +304,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="decision3" type="462c0819:PsiDirectoryNode" />
+              <item name="decision4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drools-lesson4" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +347,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../softs/android-sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584346809670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584405682429" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -385,7 +378,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDecision4.checkDrl2">
+  <component name="RunManager" selected="JUnit.TestDecision5.testDecision">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -394,23 +387,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecision2.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="drools-lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="decision" />
-      <option name="MAIN_CLASS_NAME" value="decision.TestDecision2" />
-      <option name="METHOD_NAME" value="testDecision" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,23 +402,6 @@
       <option name="PACKAGE_NAME" value="decision" />
       <option name="MAIN_CLASS_NAME" value="decision.TestDecision3" />
       <option name="METHOD_NAME" value="checkDrl2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecision3.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="drools-lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="decision" />
-      <option name="MAIN_CLASS_NAME" value="decision.TestDecision3" />
-      <option name="METHOD_NAME" value="testDecision" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -483,6 +442,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDecision5.checkDrl2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drools-lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="decision" />
+      <option name="MAIN_CLASS_NAME" value="decision.TestDecision5" />
+      <option name="METHOD_NAME" value="checkDrl2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDecision5.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drools-lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="decision" />
+      <option name="MAIN_CLASS_NAME" value="decision.TestDecision5" />
+      <option name="METHOD_NAME" value="testDecision" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -507,19 +500,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDecision2.testDecision" />
       <item itemvalue="JUnit.TestDecision3.checkDrl2" />
-      <item itemvalue="JUnit.TestDecision3.testDecision" />
       <item itemvalue="JUnit.TestDecision4.checkDrl2" />
       <item itemvalue="JUnit.TestDecision4.testDecision" />
+      <item itemvalue="JUnit.TestDecision5.checkDrl2" />
+      <item itemvalue="JUnit.TestDecision5.testDecision" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDecision5.testDecision" />
+        <item itemvalue="JUnit.TestDecision5.checkDrl2" />
         <item itemvalue="JUnit.TestDecision4.checkDrl2" />
         <item itemvalue="JUnit.TestDecision4.testDecision" />
         <item itemvalue="JUnit.TestDecision3.checkDrl2" />
-        <item itemvalue="JUnit.TestDecision3.testDecision" />
-        <item itemvalue="JUnit.TestDecision2.testDecision" />
       </list>
     </recent_temporary>
   </component>
@@ -538,44 +531,44 @@
       <workItem from="1584006371202" duration="2507000" />
       <workItem from="1584147408546" duration="50000" />
       <workItem from="1584147462031" duration="3201000" />
-      <workItem from="1584157795053" duration="18798000" />
+      <workItem from="1584157795053" duration="23339000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDecision3_checkDrl2 - 2020.03.16 at 15h 37m 50s.xml">
-      <configuration name="TestDecision3.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_checkDrl2 - 2020.03.16 at 16h 35m 59s.xml">
+      <configuration name="TestDecision5.checkDrl2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision3_checkDrl2 - 2020.03.16 at 15h 38m 05s.xml">
-      <configuration name="TestDecision3.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 36m 29s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 15h 58m 51s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 36m 50s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 15h 59m 18s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 48m 09s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 15h 59m 44s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 49m 30s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 16h 00m 15s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 50m 15s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 16h 04m 13s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 51m 12s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_testDecision - 2020.03.16 at 16h 04m 37s.xml">
-      <configuration name="TestDecision4.testDecision" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 16h 58m 52s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 16h 05m 41s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_checkDrl2 - 2020.03.16 at 17h 05m 17s.xml">
+      <configuration name="TestDecision5.checkDrl2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDecision4_checkDrl2 - 2020.03.16 at 16h 06m 14s.xml">
-      <configuration name="TestDecision4.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestDecision5_testDecision - 2020.03.16 at 17h 06m 01s.xml">
+      <configuration name="TestDecision5.testDecision" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32520000" />
+    <option name="totallyTimeSpent" value="37061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="0" />
@@ -622,24 +615,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/6df65c6bcc79265754e08ebdfeff69eb/Message/MessageTemp/d9f757c99a7a938c109563d39f7b8ac0/File/DroolsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/kie/kie-api/7.34.0.Final/kie-api-7.34.0.Final.jar!/org/kie/api/KieServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/drools/drools-decisiontables/7.34.0.Final/drools-decisiontables-7.34.0.Final-sources.jar!/org/drools/decisiontable/SpreadsheetCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1332">
           <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding>
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,13 +960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/doc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -996,15 +976,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision4.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestDecision5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/doc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
