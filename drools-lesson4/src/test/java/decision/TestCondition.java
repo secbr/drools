@@ -47,12 +47,16 @@ public class TestCondition {
 		p3.setAge(88);
 		p3.setName("我是老年人");
 
+		Person p4 = new Person();
+		p4.setAge(129);
+		p4.setName("寿星");
 
 		KieSession kieSession = container.newKieSession("decision-rules7");
 
 		kieSession.insert(p1);
 		kieSession.insert(p2);
 		kieSession.insert(p3);
+		kieSession.insert(p4);
 
 		int count = kieSession.fireAllRules();
 
