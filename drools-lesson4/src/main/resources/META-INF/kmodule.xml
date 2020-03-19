@@ -16,4 +16,10 @@
     <kbase name="decision-kbase5" packages="com.decision5">
         <ksession name="decision-rules5"/>
     </kbase>
+    <kbase name="decision-kbase6" packages="com.decision6">
+        <ksession name="decision-rules6"/>
+    </kbase>
+    <kbase name="decision-kbase7" packages="com.decision7">
+        <ksession name="decision-rules7"/>
+    </kbase>
 </kmodule>
