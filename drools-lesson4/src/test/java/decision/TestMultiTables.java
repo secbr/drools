@@ -1,5 +1,6 @@
 package decision;
 
+import com.choupangxia.entity.Address;
 import com.choupangxia.entity.Person;
 import lombok.extern.slf4j.Slf4j;
 import org.drools.decisiontable.InputType;
@@ -16,12 +17,12 @@ import org.kie.internal.io.ResourceFactory;
  * @date 2020/3/12 10:51 AM
  **/
 @Slf4j
-public class TestLoop {
+public class TestMultiTables {
 
 	@Test
 	public void checkDrl2() {
 		SpreadsheetCompiler compiler = new SpreadsheetCompiler();
-		String drl = compiler.compile(ResourceFactory.newClassPathResource("com/decision9/decision9.xls"),
+		String drl = compiler.compile(ResourceFactory.newClassPathResource("com/decision10/decision10.xls"),
 				InputType.XLS);
 		System.out.println(drl);
 	}
@@ -35,11 +36,16 @@ public class TestLoop {
 		person.setAge(24);
 		person.setName("Tom");
 
-		KieSession kieSession = container.newKieSession("decision-rules9");
+		Address address = new Address();
+		address.setCountry("China");
+		address.setCity("BeiJing");
+
+		KieSession kieSession = container.newKieSession("decision-rules10");
 
 		kieSession.insert(person);
+		kieSession.insert(address);
 		int count = kieSession.fireAllRules();
-		log.info("Person age:{}", person.getAge());
+
 		log.info("Fired {} rules!", count);
 		kieSession.dispose();
 	}

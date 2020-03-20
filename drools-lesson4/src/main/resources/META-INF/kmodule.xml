@@ -28,4 +28,7 @@
     <kbase name="decision-kbase9" packages="com.decision9">
         <ksession name="decision-rules9"/>
     </kbase>
+    <kbase name="decision-kbase10" packages="com.decision10">
+        <ksession name="decision-rules10"/>
+    </kbase>
 </kmodule>
