@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b8f5ca-edc3-4d50-88f4-4bc61442451f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/decision8/decision8.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/decision/TestMultiFact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/decision7/decision7.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/decision7/decision7.xls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,70 +22,49 @@
         <counts>
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="8" />
-          <entry key="JAVA" value="1277" />
+          <entry key="JAVA" value="1398" />
           <entry key="Markdown" value="91" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="XML" value="127" />
+          <entry key="XML" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="17" />
           <entry key="Git file" value="1" />
-          <entry key="JAVA" value="89" />
+          <entry key="JAVA" value="91" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/doc.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestCondition.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestMultiFact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -138,10 +120,12 @@
         <option value="$PROJECT_DIR$/src/test/java/decision/TestDecision5.java" />
         <option value="$PROJECT_DIR$/src/test/java/decision/TestFunctions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" />
         <option value="$PROJECT_DIR$/src/test/java/decision/TestName.java" />
         <option value="$PROJECT_DIR$/src/test/java/decision/TestCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/decision/TestMultiFact.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml" />
       </list>
     </option>
   </component>
@@ -234,7 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,7 +303,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="decision7" type="462c0819:PsiDirectoryNode" />
+              <item name="decision8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drools-lesson4" type="b2602c69:ProjectViewProjectNode" />
@@ -354,14 +338,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../softs/android-sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584602938601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584663363722" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestMultiFact.testDecision">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -439,40 +423,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDecision5.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="drools-lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="decision" />
-      <option name="MAIN_CLASS_NAME" value="decision.TestDecision5" />
-      <option name="METHOD_NAME" value="testDecision" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFunctions.checkDrl2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="drools-lesson4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="decision" />
-      <option name="MAIN_CLASS_NAME" value="decision.TestFunctions" />
-      <option name="METHOD_NAME" value="checkDrl2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFunctions.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="drools-lesson4" />
       <extension name="coverage">
@@ -483,6 +433,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="decision" />
       <option name="MAIN_CLASS_NAME" value="decision.TestFunctions" />
+      <option name="METHOD_NAME" value="testDecision" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMultiFact.checkDrl2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drools-lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="decision" />
+      <option name="MAIN_CLASS_NAME" value="decision.TestMultiFact" />
+      <option name="METHOD_NAME" value="checkDrl2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMultiFact.testDecision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="drools-lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="decision" />
+      <option name="MAIN_CLASS_NAME" value="decision.TestMultiFact" />
       <option name="METHOD_NAME" value="testDecision" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -514,19 +498,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDecision5.testDecision" />
-      <item itemvalue="JUnit.TestFunctions.checkDrl2" />
       <item itemvalue="JUnit.TestFunctions.testDecision" />
       <item itemvalue="JUnit.TestCondition.checkDrl2" />
       <item itemvalue="JUnit.TestCondition.testDecision" />
+      <item itemvalue="JUnit.TestMultiFact.checkDrl2" />
+      <item itemvalue="JUnit.TestMultiFact.testDecision" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMultiFact.testDecision" />
+        <item itemvalue="JUnit.TestMultiFact.checkDrl2" />
         <item itemvalue="JUnit.TestCondition.testDecision" />
         <item itemvalue="JUnit.TestCondition.checkDrl2" />
         <item itemvalue="JUnit.TestFunctions.testDecision" />
-        <item itemvalue="JUnit.TestFunctions.checkDrl2" />
-        <item itemvalue="JUnit.TestDecision5.testDecision" />
       </list>
     </recent_temporary>
   </component>
@@ -546,49 +530,51 @@
       <workItem from="1584147408546" duration="50000" />
       <workItem from="1584147462031" duration="3201000" />
       <workItem from="1584157795053" duration="28135000" />
-      <workItem from="1584577440315" duration="11311000" />
+      <workItem from="1584577440315" duration="13517000" />
+      <workItem from="1584662445215" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 14m 00s.xml">
-      <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 14m 48s.xml">
-      <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 15m 33s.xml">
-      <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCondition_testDecision - 2020.03.19 at 15h 15m 45s.xml">
+    <history-entry file="TestCondition_testDecision - 2020.03.19 at 17h 06m 26s.xml">
       <configuration name="TestCondition.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 17m 26s.xml">
+    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 17h 06m 42s.xml">
       <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_testDecision - 2020.03.19 at 15h 17m 40s.xml">
+    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 17h 07m 05s.xml">
+      <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCondition_testDecision - 2020.03.19 at 17h 07m 10s.xml">
       <configuration name="TestCondition.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_testDecision - 2020.03.19 at 15h 18m 16s.xml">
+    <history-entry file="TestCondition_testDecision - 2020.03.19 at 17h 08m 05s.xml">
       <configuration name="TestCondition.testDecision" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 26m 27s.xml">
+    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 17h 15m 23s.xml">
       <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 26m 50s.xml">
+    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 17h 15m 45s.xml">
       <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCondition_checkDrl2 - 2020.03.19 at 15h 28m 00s.xml">
-      <configuration name="TestCondition.checkDrl2" configurationId="JUnit" />
+    <history-entry file="TestCondition_testDecision - 2020.03.19 at 17h 16m 22s.xml">
+      <configuration name="TestCondition.testDecision" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiFact_checkDrl2 - 2020.03.20 at 08h 09m 30s.xml">
+      <configuration name="TestMultiFact.checkDrl2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMultiFact_testDecision - 2020.03.20 at 08h 09m 40s.xml">
+      <configuration name="TestMultiFact.testDecision" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53168000" />
+    <option name="totallyTimeSpent" value="56132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="960" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,13 +583,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41183433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41183433" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" weight="0.37159765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27928993" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2781065" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -629,20 +615,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/drools/drools-compiler/7.34.0.Final/drools-compiler-7.34.0.Final.jar!/org/drools/compiler/kie/builder/impl/KieProject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/drools/drools-compiler/7.34.0.Final/drools-compiler-7.34.0.Final.jar!/org/drools/compiler/kie/builder/impl/ClasspathKieProject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/kie/kie-api/7.34.0.Final/kie-api-7.34.0.Final-sources.jar!/org/kie/api/KieBaseConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -944,31 +916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -982,10 +933,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/utils/GlobalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/kmodule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/choupangxia/entity/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/decision/TestMultiFact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>

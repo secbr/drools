@@ -22,4 +22,7 @@
     <kbase name="decision-kbase7" packages="com.decision7">
         <ksession name="decision-rules7"/>
     </kbase>
+    <kbase name="decision-kbase8" packages="com.decision8">
+        <ksession name="decision-rules8"/>
+    </kbase>
 </kmodule>
