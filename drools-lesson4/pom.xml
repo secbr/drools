@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <properties>
-        <drools.version>7.34.0.Final</drools.version>
+        <drools.version>7.60.0.Final</drools.version>
     </properties>
 
     <dependencies>
